@@ -1,0 +1,22 @@
+name: alo_scRNAseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - scanpy=1.9.*
+  - anndata=0.9.*
+  - pandas=2.*
+  - numpy=1.26.*
+  - matplotlib=3.8.*
+  - seaborn=0.12.*
+  - scipy=1.11.*
+  - scikit-learn=1.3.*
+  - statsmodels=0.14.*
+  - jupyterlab=4.*
+  - pip
+  - pip:
+      - gseapy==1.0.8
+      - adjustText==0.9
+
